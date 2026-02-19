@@ -427,3 +427,7 @@ ul img {
   color: #1E3434;
   margin: 5px 0 10px;
 }
+
+.code-snippet {
+  border: #1E3434 1px solid;
+}

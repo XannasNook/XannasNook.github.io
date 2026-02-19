@@ -7,6 +7,7 @@
   <meta name="keywords" content="Game developer, portfolio, game, design, computer science, projects, xanna, divine, blog, design, c++" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/prism.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
@@ -35,7 +36,14 @@
       </div>
       <div id="content">
         <h1>Attempting Fate</h1>
-        <p>Unfinished description</p>
+        <p>
+          Attempting Fate is a vampire-themed visual novel written in C using a custom engine that utilized a DigiPen proprietary library called "DGL". This game was developed for DigiPen's GAM-150 class. The story follows the player, taking the role of either Aleksandr, Karda, or Amaroth, through their attempt to overthrow the king, who is opressing vampire-kind. The player gains items which effect their stats, which change the dialogue options that can be chosen.
+        </p>
+        <p>
+          I worked as a gameplay and engine programmer for this project. My biggest contribution being the custom scripting language, which allowed our narrative writer the ability to change backgrounds, add dialogue options, go to and return from, play animations, and change the currently displayed character. This was done through C string manipulation and text display. Below is a code snippet of the main script parsing function, which looped through the text to get commands.
+        </p>
+        <pre data-src="AttemptingFate.c">
+        </pre>
         
       </div>
     </div>
@@ -49,6 +57,7 @@
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
   <script type="text/javascript" src="js/image_fade.js"></script>
+  <script src="js/prism.js"></script>
   <script type="text/javascript">
     $(function() {
       $("#lava_menu").lavaLamp({
