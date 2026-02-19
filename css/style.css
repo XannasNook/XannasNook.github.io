@@ -175,6 +175,13 @@ nav {
   margin: 0;
   float: left;
 }
+#content-wide { 
+  text-align: justify;
+  width: 800px;
+  padding: 0 0 5px 30px;
+  margin: 0;
+  float: center;
+}
 
 #content ul { 
   margin: 2px 0 5px 0px;
