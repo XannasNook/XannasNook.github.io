@@ -195,15 +195,15 @@ nav {
   line-height: 1.5em;
 }
 
-#blog_container h4 {
+#CodeSamples_container h4 {
   font: normal 170% 'News Cycle', arial, sans-serif;
   margin: 0 0 15px 0;
   padding: 5px 0;}
 
-#blog_container h4.select {
+#CodeSamples_container h4.select {
   width: 475px;}
 
-.blog {
+.CodeSamples {
   background: url(../images/calendar.png) no-repeat;
   width: 54px;
   height: 46px;
@@ -211,7 +211,7 @@ nav {
   margin: 0 15px 0 0;
 }
 
-.blog h2 {
+.CodeSamples h2 {
   font: normal 90% arial, sans-serif;
   text-shadow: none;
   text-align: center;
@@ -220,7 +220,7 @@ nav {
   color: #FFF;
 }
   
-.blog h3 {
+.CodeSamples h3 {
   font: 140% arial, sans-serif;
   text-shadow: none;
   margin: -15px 0 0 0;
@@ -345,11 +345,11 @@ ul img {
 
 
 
-/* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
+/* from here: http://www.gmarwaha.com/Code Samples/2007/08/23/lavalamp-for-jquery-lovers */
 .lavaLampWithImage {
   position: relative;
   height: 25px;
-  padding: 15px 5px 15px 0;
+  padding: 15px 5px 5px 0;
   margin: 10px 0 0 0;
   overflow: hidden;
   float: right;
@@ -382,10 +382,10 @@ ul img {
   display: block;
   float: left;
   height: 30px;
-  padding: 0px 9px 0 9px;
+  padding: 0px 1px 0 9px;
   position: relative;
   overflow: hidden;
-  margin: auto 10px;    
+  margin: auto 1px;    
 }
 
 .lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {

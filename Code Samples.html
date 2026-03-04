@@ -8,6 +8,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/prism.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
@@ -21,33 +22,17 @@
           <li><a href="index.html">home</a></li>
           <li><a href="about.html">about me</a></li>
           <li><a href="portfolio.html">my portfolio</a></li>
-          <li><a href="Code Samples.html">Code Samples</a></li>
-          <li class="current"><a href="contact.html">contact</a></li>
+          <li class="current"><a href="Code Samples.html">Code Samples</a></li>
+          <li><a href="contact.html">contact</a></li>
           <li><a href="Resume.pdf">resume</a></li>
         </ul>
       </nav>
     </header>
     <div id="site_content">
-      <div id="sidebar_container">
-        <div id="gallery">
-          <ul class="images">
-            <li class="show"><img width="450" height="450" src="images/Attempting_Fate_Poster.png" alt="photo_one" /></li>
-            <li><img width="450" height="450" src="images/FFMLogo.png" alt="photo_two" /></li>
-            <li><img width="450" height="450" src="images/JAX_logo.png" alt="photo_three" /></li>
-            <li><img width="450" height="450" src="images/As You Stare.png" alt="photo_four" /></li>
-          </ul>
-        </div>
-      </div>
-      <div id="content">
-        <h1>Contact</h1>
-        <p>Business Email - XannaDivine@gmail.com</p>
-        <p>Discord - xannas_here</p>
-        <p><a href="https://linkedin.com/in/xan-fuller">LinkedIn</a></p>
-        <p><a href="https://github.com/XannasNook">Github</a></p>
-        <p><a href="https://xannaogg.itch.io">Itch.io</a></p>
-        <!-- <p><a href="#">YouTube</a></p> -->
-
-
+        <h1>Code Samples</h1>
+        <div id="CodeSamples_container">
+          <p>This sample is from <a href="projects/AttemptingFate.html">Attempting Fate</a>.</p>
+        <div style="height:550px;overflow:auto;"><pre data-src="projects/AttemptingFate.c" class="line-numbers"></pre></div>
       </div>
     </div>
     <footer>
@@ -60,6 +45,7 @@
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
   <script type="text/javascript" src="js/image_fade.js"></script>
+  <script src="../js/prism.js"></script>
   <script type="text/javascript">
     $(function() {
       $("#lava_menu").lavaLamp({
